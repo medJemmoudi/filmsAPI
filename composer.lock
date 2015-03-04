@@ -1,0 +1,117 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "2d47fc70ddf6bb9cb98e81cc84664b3d",
+    "packages": [
+        {
+            "name": "slim/slim",
+            "version": "2.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/slimphp/Slim.git",
+                "reference": "365dbfa0c02a31e76888eaec693dacd9dca1c82a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/slimphp/Slim/zipball/365dbfa0c02a31e76888eaec693dacd9dca1c82a",
+                "reference": "365dbfa0c02a31e76888eaec693dacd9dca1c82a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "suggest": {
+                "ext-mcrypt": "Required for HTTP cookie encryption"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Slim": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Lockhart",
+                    "email": "info@joshlockhart.com",
+                    "homepage": "http://www.joshlockhart.com/"
+                }
+            ],
+            "description": "Slim Framework, a PHP micro framework",
+            "homepage": "http://github.com/codeguy/Slim",
+            "keywords": [
+                "microframework",
+                "rest",
+                "router"
+            ],
+            "time": "2015-03-02 19:09:48"
+        },
+        {
+            "name": "voodoophp/voodorm",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mardix/VoodOrm.git",
+                "reference": "61d18f373a6e600aa54b39f2fcdc8f2f1cc68f66"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mardix/VoodOrm/zipball/61d18f373a6e600aa54b39f2fcdc8f2f1cc68f66",
+                "reference": "61d18f373a6e600aa54b39f2fcdc8f2f1cc68f66",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Voodoo": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mardix",
+                    "homepage": "http://github.com/mardix",
+                    "role": "Developer"
+                }
+            ],
+            "description": "VoodOrm is a micro-ORM which functions as both a fluent select query API and a CRUD model class.",
+            "homepage": "https://github.com/mardix/VoodOrm",
+            "keywords": [
+                "fluent query",
+                "mysql",
+                "orm",
+                "pdo",
+                "postgresql",
+                "sqlite"
+            ],
+            "time": "2014-02-13 05:05:23"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ],
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
