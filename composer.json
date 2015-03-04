@@ -1,0 +1,11 @@
+{
+    "name": "PFE Git Workflow",
+	"description": "Our first workflow test",
+	"keywords": ["git", "Workflow", "PFE"],
+	"license": "MIT",
+	"type": "project",
+    "require": {
+        "slim/slim": "*",
+        "voodoophp/voodorm": "2.*"
+    }
+}
